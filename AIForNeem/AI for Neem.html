@@ -1,0 +1,86 @@
+<html>
+<head>
+<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+</head>
+<body>
+
+<p id="demo"></p>
+
+<img src="fish.jpg" alt="Fish" width="200" height="300" class="center">
+
+
+<script>
+
+if (annyang) {
+	document.write("<p>.................................................................</p>");
+	console.log("got hello!!");
+  
+  
+       var hello = function() {
+	  document.write("<p><h3>USER: Hello</h3></p>");
+          document.write("<p><h3><i>NEEM: Hello, I AM NEEM. I welcome you on board</i></h3></p>");
+	  document.write("<p><h3><i>NEEM: Do you want to play or walk?</i></h3></p>");
+          scrollpage();
+    }
+	
+	var walk_play = function(tag1) {
+        if (tag1=='walk') {
+        document.write("<p style='color:blue;'><h3>USER: I want to walk</h3></p>");
+	document.write("<p><h3><i>NEEM: OK. Let's start. I will join you</i></h3></p>");
+      } 
+        else if (tag1=='play') {
+        document.write("<p><h3>USER: I want to play</h3></p>");
+        document.write("<p><h3><i>NEEM: Do you want to play single or group game?</i></h3></p>");
+      } 
+        else {
+         document.write("<p><h3><i>NEEM: You can answer as - I want to walk/play</i></h3></p>");
+      }
+    }
+
+      var game_type = function(tag2) {
+        if (tag2=='single') {
+        document.write("<p><h3>USER: Single Game</h3></p>");
+	document.write("<p><h3><i>NEEM: Are you in good health?</i></h3></p>");
+      } 
+        else if (tag2=='group') {
+        document.write("<p><h3>USER: Group game</h3></p>");
+        document.write("<p><h3><i>NEEM: You can play the following games - <br>1. Tic-tac-toe<br>2. Chess</i></h3></p>");
+      } 
+        else {
+         document.write("<p><h3><i>NEEM: You can answer as - Single game/Group game</i></h3></p>");
+      }
+    }
+
+       var yes = function() {
+	  document.write("<p><h3>USER: Yes</h3></p>");
+          document.write("<p><h3><i>NEEM: You can play the game - As Fast as you can</i></h3></p>");
+    }
+
+       var no = function() {
+	  document.write("<p><h3>USER: No</h2></p>");
+          document.write("<p><h3><i>NEEM: You can play the game - Find the pet</i></h3></p>");
+    }
+	  	
+  var commands = {
+	'hello':  hello,
+	'I want to *tag1': walk_play,
+        '*tag2 game': game_type,
+        'yes':  yes,
+        'no':  no,
+
+  };
+
+
+  // Add our commands to annyang
+  annyang.addCommands(commands);
+
+  // Start listening. You can call this here, or attach this call to an event, button, etc.
+  annyang.start();
+}
+
+</script>
+
+<h3>Say "Hello" to start talking with me</h3>
+</body>
+
+</html>

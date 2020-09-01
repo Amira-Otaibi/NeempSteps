@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <title> NeemSteps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap + semantic Ui + Ajax + icons + css file   مكتبة الـ -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.css">
+  <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
+  <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.js">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="fontawesome/css/all.css">  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!--  خطـــوط قوقل -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+<!-- بداية الكود -->
+<body id="page-top">
+    <!-- صفحة الهوم -->
+    <nav class="navbar navbar-expand-lg  fixed-top" id="">
+      <div class="container">
+        <div class="col">
+          <a class="text-black" href="#page-top" id="ee">NeemSteps</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><br> 
+          <div class="collapse navbar-collapse" id="navbarResponsive">  
+          </div>   </div>
+          <div class="col">
+            <ul class="navbar-nav "  id="cc">
+                  <i class="fas fa-bell text-white" id= "bb"></i>
+                  <img src="../Demo Website/images/to2.png" alt="..." class="rounded " id="bc">
+                </ul>
+          </div>
+          </div>
+  </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-light">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-5 mt-5">
+                <h3 class="text-black font-weight-bold mb-3" id="neem">NeemSteps Vision</h3>
+                <iframe id="fram" class="justify-content-center" width="490" height="270" src="https://www.youtube.com/embed/5TredCSRv88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          <div class="col-6">
+         <h3 class="text-black font-weight-bold"id="ss">ABOUT US</h3>
+           <div id="bw">
+         <p class=" ui secondary segment font-weight-bold">Welcome to the NeemSteps app, I'm going to introduce myself and the people who created me. l am Neem i came to the world by a bunch of UQU students and their names are Afrah Al-Saadi, Amira Al-Otaibi, Rafah Suqati, Ghufran Al-Seyami, Logain Batuq And supervised by Dr.Hanan Al-shanbari, In order to give you an extraordinary new experience by merging the reality i'm in and your reality together which is called augmented reality. I'm looking forward to meeting you guys.</p>
+          </div>
+          </div>
+                <h3 class="text-white" id="wc">Let's go to make the first reservation !</h3>
+           <a class="btn btn-primary btn-xl js-scroll-trigger" id="cv" href="#">Find Out More</a>
+            </div> 
+        </div> 
+    </header>
+
+    <!-- الحجز -->
+    <section class="page-section" id="es">
+            <div class="container h-100">
+            <div class="row justify-content-center mb-3">
+            
+          
+            <div class="col-6">
+              <div class="card" id="mm">
+                  <div class="card-header">
+                      <h4 class="mb-0 text-center" id="c">Reservation</h4>
+                  </div>
+                  <div class="card-body">
+                      <hr class="mb-4">
+<!-- Date Picker Input -->
+<div class="form-group mb-4" id="u">
+  <div class="datepicker date input-group p-0 shadow-sm">
+      <input type="text" placeholder="Pick a reservation date" class="form-control py-4 px-4" id="reservationDate">
+      <div class="input-group-append"><span class="input-group-text px-4"><i class="fas fa-calendar-alt"></i></span></div>
+  </div>
+</div>
+<!-- DEnd ate Picker Input -->
+<div class="input-group">
+     <div class="ui calendar" id="example3">
+  <div class="ui input left icon">
+    <i class="time icon"></i>
+    <input type="text" placeholder="Time">
+  </div>
+     </div>
+  <div class="input-group-append">
+    <span class="input-group-text">$</span>
+    <span class="input-group-text">0.00</span>
+  </div>
+</div>
+<br>
+        
+                      <h4 class="">Payment</h4>
+              
+                      <div class="d-block my-3">
+                        <div class="custom-control custom-radio">
+                          <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                          <label class="custom-control-label" for="credit">Credit card</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                          <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                          <label class="custom-control-label" for="debit">Debit card</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                          <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                          <label class="custom-control-label" for="paypal">PayPal</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 mb-3">
+                          <label for="cc-name">Name on card</label>
+                          <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                          <small class="text-muted">Full name as displayed on card</small>
+                          <div class="invalid-feedback">
+                            Name on card is required
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                          <label for="cc-number">Credit card number</label>
+                          <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                          <div class="invalid-feedback">
+                            Credit card number is required
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-3 mb-3">
+                          <label for="cc-expiration">Expiration</label>
+                          <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                          <div class="invalid-feedback">
+                            Expiration date required
+                          </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <label for="cc-cvv">CVV</label>
+                          <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                          <div class="invalid-feedback">
+                            Security code required
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="mb-4">
+                      <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+                    </form>
+                  </div>
+                </div>
+          </div>  
+            </div>
+            </div>
+          
+ <!-- مكتبات الجافا سكربت  -->
+   <!-- Bootstrap core JS-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+   <!-- Third party plugin JS-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+   <!-- Core theme JS-->
+   <script src="js/scripts.js"></script>
+</body>
+
+</html>
