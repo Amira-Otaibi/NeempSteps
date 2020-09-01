@@ -8,5 +8,5 @@
 - Logain Batuq  
 > #### Supervised by Dr.Hanan Al-shanbari
 # Content 
- #### 1. AI algorithm of Neem [show the Algorthim](https://amira-otaibi.github.io/NeempSteps/AIForNeem/AI%20for%20Neem.html)
- #### 2. Demo of Website [show the Website](https://amira-otaibi.github.io/NeempSteps/Neemsteps/Demo%20Website.html)
+ #### 1. AI algorithm of Neem, [show the Algorthim](https://amira-otaibi.github.io/NeempSteps/AIForNeem/AI%20for%20Neem.html)
+ #### 2. Demo of Website, [show the Website](https://amira-otaibi.github.io/NeempSteps/Neemsteps/Demo%20Website.html)
