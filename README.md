@@ -1,5 +1,5 @@
 # NeemSteps
-<img width="30%" height="30%" src="https://raw.githubusercontent.com/Amira-Otaibi/NeemSteps/master/logo-1.jpeg?sanitize=true&raw=true" />
+<img width="30%" height="30%" src="https://raw.githubusercontent.com/Amira-Otaibi/NeempSteps/master/logo-1.jpeg?sanitize=true&raw=true" />
 
 ### l am Neem I came to the world by a bunch of UQU students and their names are 
 - Afrah Al-Saadi
